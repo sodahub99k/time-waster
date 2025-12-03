@@ -113,8 +113,19 @@ const getRandomColor = () =>
   `#${Math.floor(Math.random() * 0xffffff).toString(16).padStart(6, "0")}`;
 
 const formatTime = (s: number) => {
-  const pad = (n: number) => n.toString().padStart(2, "0");
-  return `${pad(Math.floor(s / 3600))}:${pad(Math.floor((s % 3600) / 60))}:${pad(s % 60)}`;
+  // const pad = (n: number) => n.toString().padStart(2, "0");
+  const hour = Math.floor(s / 3600);
+  const min = Math.floor((s % 3600) / 60);
+  const sec = s % 60;
+  let result = "";
+  if (hour > 0) {
+    result += `${hour}時間`;
+  }
+  if (min > 0 || hour > 0) {
+    result += `${min}分`;
+  }
+  result += `${sec}秒`;
+  return result;
 };
 
 export default function App() {
