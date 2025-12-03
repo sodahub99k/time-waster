@@ -224,8 +224,8 @@ export default function App() {
         )}
       </div>
 
-      <audio ref={audioRef} src="/bgm.mp3" loop />
-      <audio ref={clickRef} src="/note.mp3" />
+      <audio ref={audioRef} loop src={`${import.meta.env.BASE_URL}bgm.mp3`} />
+      <audio ref={clickRef} src={`${import.meta.env.BASE_URL}click.mp3`} />
     </>
   );
 }

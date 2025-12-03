@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://sodahub99k.github.io/time-waster/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
