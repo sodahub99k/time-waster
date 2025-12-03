@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  background: black;
+  color: rgb(248, 251, 255);
+  font-family: "Google Sans Code", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#container {
+  text-align: start;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.sub {
+  font-size: 1.5rem;
+}
+
+.time {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.aa {
+  white-space: pre;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: white;
+  animation: starMove linear infinite;
+}
+
+@keyframes starMove {
+  from {
+    transform: translateY(0) translateX(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(-2000px) translateX(1000px);
+    opacity: 0;
+  }
+}
