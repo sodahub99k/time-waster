@@ -9,5 +9,7 @@
 
 メロウなジャズ・ミュージックに身を委ね，快適なひとときをお過ごしください．
 
+サイト： [https://sodahub99k.github.io/time-waster](https://sodahub99k.github.io/time-waster)
+
 ![website screenshot](time-waster.jpeg)
 
