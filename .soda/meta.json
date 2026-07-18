@@ -1,10 +1,9 @@
 {
-  "title": "Spaghettify",
-  "description": "C言語を読みにくくする新発想の\"逆フォーマッター\"。嫌な上司にコードを読ませる時などにどうぞ。",
+  "title": "Time-waster",
+  "description": "効率よく時間を無駄にするために設計されたWEBサービス。",
   "category": "joke",
   "featured": true,
   "visible": true
 }
-
 
 
